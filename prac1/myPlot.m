@@ -6,3 +6,5 @@ m = length(y); % number of training examples
 figure; % open a new figure window
 
 %write your plot code here
+scatter(X, y);
+xlabel('X'); ylabel('y'); title('Data');
